@@ -210,8 +210,7 @@
   flex-direction: column;
   padding-top: 60px;
   padding-bottom: 60px;
-  width: var(--width);
-  /* background-color: #f5f4fa; */
+  /* background-color: #c70035; */
 }
 .number {
   display: flex;
@@ -477,7 +476,7 @@
   gap: 0;
   padding: 0;
   margin: 0;
-  background-color: #f5f4fa;
+  /* background-color: #f5f4fa; */
 }
 .box-portfolio2 {
   /* padding-bottom: 94px;
@@ -501,26 +500,28 @@
   max-width: 370px;
 }
 .icon-antenna-1 {
-  margin-left: 15px;
-  margin-right: 15px;
-  fill: #212121;
-  stroke: #757575;
-  /* stroke-width: 1; */
+  margin-left: 5px;
+  margin-right: 5px;
+  fill: #757575;
+  /* stroke-width: 0; */
   background-color: #ffffff;
-  border-radius: 100%;
+  border-radius: 50%;
+}
+.delete {
+  fill: #ff1111;
+}
+.delete:hover {
+  fill: #34f100;
+
+  background-color: #bbbcc4;
 }
 
 .icon-antenna-1:hover {
-  fill: red;
-  stroke: #ffffff;
+  fill: #ffffff;
   background-color: #2196f3;
 }
 .icon-antenna-1:hover path {
-  fill: #2196f3;
-  stroke: #ffffff;
-}
-.icon-antenna-1:hover circle {
-  fill: #2196f3;
+  fill: greenyellow;
 }
 .box-icons {
   width: 270px;
@@ -553,4 +554,73 @@
 
   border-radius: 8px;
   fill: #afb1b8;
+}
+.socialmedia {
+  display: flex;
+  /* background-color: #34f100; */
+  width: 1200px;
+}
+
+.box-icons3 {
+  max-width: 270px;
+  max-height: 100px;
+  display: flex;
+  padding-right: 0px;
+
+  margin-left: 40px;
+  padding: 0;
+
+  /* background-color: #5b50ff; */
+}
+.icons-socials {
+  margin-right: 5px;
+  margin-left: 5px;
+  fill: #ffffff;
+  /* stroke-width: 0; */
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.icons-socials:hover {
+  background-color: #2196f3;
+}
+.socialmedia2 {
+  /* background-color: #757575; */
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+}
+.lorem2 {
+  /* margin: 10 15px 15px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #2196f3; */
+  color: #ffffff;
+  text-align: justify;
+}
+.box-clients {
+  max-width: 270px;
+  max-height: 100px;
+  display: flex;
+  padding-right: 0px;
+
+  margin-left: 40px;
+  padding: 0;
+}
+.icon-client {
+  margin-right: 5px;
+  margin-left: 5px;
+  fill: #ffffff;
+  /* stroke-width: 0; */
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-clinear:hover {
+  background-color: #2196f3;
 }
