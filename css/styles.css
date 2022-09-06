@@ -114,6 +114,9 @@
   background-color: var(--button-color);
   box-shadow: var(--box);
   border-radius: var(--border);
+  box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
   /* background: #2196f3; */
 }
 
@@ -315,10 +318,10 @@
   background-color: #ffffff;
   box-shadow: var(--box);
   max-width: 270px;
-  padding-top: 30px;
+  padding-top: 15px;
   line-height: 30px;
-  margin: 0;
-  gap: 0;
+  margin: 0%;
+  gap: 0%;
 }
 .paragraf {
   font-family: "Roboto";
@@ -437,7 +440,10 @@
   padding-left: 10px;
   padding-right: 10px;
 } */
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .container-portfolio {
   max-width: 1200px;
   display: flex;
@@ -451,13 +457,18 @@
   /* padding-bottom: 94px; */
 }
 .box-portfolio {
-  padding-bottom: 50px;
-  margin: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 50px;
 
   /* flex-basis: calc((100% - 60px) / 3); */
 }
+.box-portfolio:hover {
+  box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
+}
 .figure-portfolio {
-  margin: 0;
+  margin: auto;
   padding: 0%;
 }
 
@@ -478,7 +489,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 0;
-
+  padding: 0%;
   margin: auto;
   /* background-color: #f5f4fa; */
   padding-bottom: 94px;
@@ -486,11 +497,18 @@
 .box-portfolio2 {
   /* padding-bottom: 94px;
   padding-top: 15px; */
+  display: block;
   margin: 0px;
-
+  padding: 0%;
+  background-color: #ffffff;
+  gap: 0%;
+  box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 1px 1px 23px 0px rgba(0, 0, 0, 0.63);
   /* flex-basis: calc((100% - 60px) / 3); */
 }
 .figure-portfolio2 {
+  display: flex;
   margin: 0;
   padding: 0%;
 }
@@ -542,15 +560,19 @@
 }
 .box-icons2 {
   width: 270px;
-  height: 120px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-right: 0px;
   margin: 0px;
   padding: 0;
-  padding-top: 30px;
+
   background-color: #ffffff;
+
+  /* box-shadow: 1px 9px 23px 0px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 1px 9px 23px 0px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 1px 9px 23px 0px rgba(0, 0, 0, 0.63); */
 }
 
 .icon-mail {
