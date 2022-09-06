@@ -75,6 +75,8 @@
   font-size: 14px;
   line-height: 171%;
   letter-spacing: 0.02em;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 .link1:hover {
   color: #2196f3;
@@ -83,6 +85,8 @@
 }
 .contact {
   /* background-color: #2196f3; */
+  display: flex;
+  align-items: center;
 }
 
 .buttons {
@@ -474,9 +478,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 0;
-  padding: 0;
-  margin: 0;
+
+  margin: auto;
   /* background-color: #f5f4fa; */
+  padding-bottom: 94px;
 }
 .box-portfolio2 {
   /* padding-bottom: 94px;
@@ -549,11 +554,15 @@
 }
 
 .icon-mail {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   border-radius: 8px;
   fill: #afb1b8;
+  /* background-color: #34f100; */
+}
+.icon-mail:hover {
+  fill: #2196f3;
 }
 .socialmedia {
   display: flex;
@@ -606,21 +615,22 @@
   text-align: justify;
 }
 .box-clients {
-  max-width: 270px;
-  max-height: 100px;
+  max-width: 150px;
+  max-height: 92px;
   display: flex;
   padding-right: 0px;
-
-  margin-left: 40px;
   padding: 0;
+  margin: 0%;
+  border-radius: 10%;
 }
 .icon-client {
-  margin-right: 5px;
-  margin-left: 5px;
-  fill: #ffffff;
+  fill: #afb1b8;
   /* stroke-width: 0; */
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #ffffff;
+  border-radius: 5%;
+  border: 2px solid #afb1b8;
 }
-.icon-clinear:hover {
-  background-color: #2196f3;
+.icon-client:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
 }
