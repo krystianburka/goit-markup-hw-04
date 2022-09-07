@@ -13,75 +13,78 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>WebStudio</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
 
   <body>
-    <header class="border">
+    <header class="header">
       <div class="menu">
-        <a class="link" href="index.html">
-          <img
-            src="images/webstudiologo.png"
-            alt="companylogo"
-            width="145"
-            height="31"
-          />
-        </a>
+        <a class="link-logo" href="index.html"
+          ><span style="color: #2196f3">Web</span
+          ><span style="color: #000000">Studio</span></a
+        >
+
         <nav>
-          <a class="link1" href="#agencja">Agnecja</a>
+          <a class="link-nav" href="#agencja">Agnecja</a>
 
-          <a class="link1" href="portfolio.html">Portfolio</a>
+          <a class="link-nav" href="portfolio.html">Portfolio</a>
 
-          <a class="link1" href="#kontakt">Kontakt</a>
+          <a class="link-nav" href="#kontakt">Kontakt</a>
         </nav>
         <div class="contact">
-          <svg class="icon-mail" width="30" height="30">
-            <use href="/images/icons.svg#icon-envelope"></use>
+          <svg class="icon-contact" width="30" height="30">
+            <use href="./images/icons.svg#icon-envelope"></use>
           </svg>
-          <a class="link" href="mailto:info@devstudio.com"
+          <a class="link-contact" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
-
-          <svg class="icon-mail" width="30" height="30">
-            <use href="/images/icons.svg#icon-smartphone"></use>
+          <svg class="icon-contact" width="30" height="30">
+            <use href="./images/icons.svg#icon-smartphone"></use>
           </svg>
-          <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+          <a class="link-contact" href="tel:+48111111111">+48 111 111 111</a>
         </div>
       </div>
     </header>
     <main class="main">
-      <section class="section-main">
-        <div class="header">
-          <h1 class="paragraf2">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+      <section class="section-order">
+        <div class="order">
+          <h1 class="paragraf-main">
+            EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
+          </h1>
 
           <div>
-            <button class="button">Zamów usługę</button>
+            <button class="button-studio">Zamów usługę</button>
           </div>
         </div>
       </section>
     </main>
     <section class="section-lorem">
       <div class="container">
-        <div class="container-lorem">
-          <div class="box-icons">
+        <div class="wrapper">
+          <div class="icons-lorem">
             <svg class="icon" width="100" height="150">
-              <use href="/images/icons.svg#icon-antenna-1"></use>
+              <use href="./images/icons.svg#icon-antenna-1"></use>
             </svg>
           </div>
-          <div class="box-icons">
+          <div class="icons-lorem">
             <svg class="icon" width="100" height="150">
-              <use href="/images/icons.svg#icon-clock-1"></use>
+              <use href="./images/icons.svg#icon-clock-1"></use>
             </svg>
           </div>
-          <div class="box-icons">
+          <div class="icons-lorem">
             <svg class="icon" width="100" height="150">
-              <use href="/images/icons.svg#icon-diagram-1"></use>
+              <use href="./images/icons.svg#icon-diagram-1"></use>
             </svg>
           </div>
-          <div class="box-icons">
+          <div class="icons-lorem">
             <svg class="icon" width="100" height="150">
-              <use href="/images/icons.svg#icon-astronaut-1"></use>
+              <use href="./images/icons.svg#icon-astronaut-1"></use>
             </svg>
           </div>
           <div class="box-lorem">
@@ -117,11 +120,11 @@
     </section>
     <section class="section-whatwedo">
       <div class="container">
-        <div class="container-portfolio">
-          <h2 class="paragraf1">Czym się zajmujemy</h2>
+        <ul class="wrapper">
+          <h2 class="paragraf-section">Czym się zajmujemy</h2>
 
-          <div class="box-portfolio2">
-            <figure class="figure-portfolio2">
+          <li class="box">
+            <figure class="figure">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/block_diagram.jpg"
@@ -130,9 +133,9 @@
                 height="294"
               />
             </figure>
-          </div>
-          <div class="box-portfolio2">
-            <figure class="figure-portfolio2">
+          </li>
+          <li class="box">
+            <figure class="figure">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/mobileappdeveloper.jpg"
@@ -141,9 +144,9 @@
                 height="294"
               />
             </figure>
-          </div>
-          <div class="box-portfolio2">
-            <figure class="figure-portfolio2">
+          </li>
+          <li class="box">
+            <figure class="figure">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/graphic_design.jpg"
@@ -152,17 +155,17 @@
                 height="294"
               />
             </figure>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
 
     <section class="section-team">
       <div class="container">
-        <div class="container-portfolio2">
-          <h2 class="paragraf1">Nasz zespół</h2>
-          <div class="box-portfolio2">
-            <figure class="figure-portfolio">
+        <ul class="wrapper">
+          <h2 class="paragraf-section">Nasz zespół</h2>
+          <li class="box">
+            <figure class="figure-team">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/produckt_designer.jpg"
@@ -174,24 +177,24 @@
                 <strong>John Doe</strong>
                 Produckt Designer
               </figcaption>
+              <div class="box-icons-team">
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </div>
             </figure>
-            <div class="box-icons2">
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-instagram-2"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-twitter-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-facebook-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="box-portfolio2">
-            <figure class="figure-portfolio">
+          </li>
+          <li class="box">
+            <figure class="figure-team">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/frontenddeveloper.jpg"
@@ -203,25 +206,25 @@
                 <strong>John Doe </strong>
                 Frontend Developer
               </figcaption>
+              <div class="box-icons-team">
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </div>
             </figure>
-            <div class="box-icons2">
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-instagram-2"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-twitter-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-facebook-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </div>
-          </div>
+          </li>
 
-          <div class="box-portfolio2">
-            <figure class="figure-portfolio">
+          <li class="box">
+            <figure class="figure-team">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/marketing.jpg"
@@ -233,24 +236,24 @@
                 <strong>John Doe </strong>
                 Marketing
               </figcaption>
+              <div class="box-icons-team">
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </div>
             </figure>
-            <div class="box-icons2">
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-instagram-2"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-twitter-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-facebook-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="box-portfolio2">
-            <figure class="figure-portfolio">
+          </li>
+          <li class="box">
+            <figure class="figure-team">
               <!-- Dowolna treść graficzna: zdjęcie, wykres, diagram itp. -->
               <img
                 src="images/ui_designer.jpg"
@@ -262,58 +265,58 @@
                 <strong>John Doe</strong>
                 UI Designer
               </figcaption>
+              <div class="box-icons-team">
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+                <svg class="icon-socials-white" width="44" height="44">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </div>
             </figure>
-            <div class="box-icons2">
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-instagram-2"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-twitter-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-facebook-1"></use>
-              </svg>
-              <svg class="icon-antenna-1" width="44" height="44">
-                <use href="/images/icons.svg#icon-linkedin-1"></use>
-              </svg>
-            </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
-    <section class="section-lorem">
+    <section class="section-clients">
       <div class="container">
-        <div class="container-portfolio2">
-          <h2 class="paragraf1">Nasi klienci</h2>
+        <div class="wrapper">
+          <h2 class="paragraf-section">Nasi klienci</h2>
 
           <div class="box-clients">
             <svg class="icon-client" width="170" height="92">
-              <use href="/images/icons.svg#icon-Logo"></use>
+              <use href="./images/icons.svg#icon-Logo"></use>
             </svg>
           </div>
           <div class="box-clients">
             <svg class="icon-client" width="170" height="92">
-              <use href="/images/icons.svg#icon-Logo-1"></use>
+              <use href="./images/icons.svg#icon-Logo-1"></use>
             </svg>
           </div>
           <div class="box-clients">
             <svg class="icon-client" width="170" height="92">
-              <use href="/images/icons.svg#icon-Logo-2"></use>
+              <use href="./images/icons.svg#icon-Logo-2"></use>
             </svg>
           </div>
           <div class="box-clients">
             <svg class="icon-client" width="170" height="92">
-              <use href="/images/icons.svg#icon-Logo-3"></use>
+              <use href="./images/icons.svg#icon-Logo-3"></use>
             </svg>
           </div>
           <div class="box-clients">
             <svg class="icon-client" width="170" height="92">
-              <use href="/images/icons.svg#icon-Logo-4"></use>
+              <use href="./images/icons.svg#icon-Logo-4"></use>
             </svg>
           </div>
           <div class="box-clients">
             <svg class="icon-client" width="170" height="92">
-              <use href="/images/icons.svg#icon-Logo-5"></use>
+              <use href="./images/icons.svg#icon-Logo-5"></use>
             </svg>
           </div>
         </div>
@@ -322,40 +325,35 @@
     <footer class="footer">
       <div class="socialmedia">
         <div class="address">
-          <a class="links" href="index.html">
-            <img
-              src="images/webstudiologo.png"
-              alt="companylogo"
-              width="145"
-              height="31"
-            />
-          </a>
+          <a class="link-logo" href="index.html"
+            ><span style="color: #2196f3">Web</span
+            ><span style="color: #000000">Studio</span></a
+          >
 
           <address class="number">
             <i>m. Warszawa, Aleje Jerozolimskie 21</i>
 
-            <a class="links" href="mailto:info@devstudio.com"
+            <a class="link-footer" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
 
-            <a class="links" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="link-footer" href="tel:+48111111111">+48 111 111 111</a>
           </address>
         </div>
-
-        <div class="socialmedia2">
-          <p class="lorem2"><strong>DOŁĄCZ DO NAS</strong></p>
-          <div class="box-icons3">
-            <svg class="icons-socials" width="44" height="44">
-              <use href="/images/icons.svg#icon-instagram-2"></use>
+        <div class="socialmedia-footer">
+          <p class="paragraf-socials"><strong>DOŁĄCZ DO NAS</strong></p>
+          <div class="box-icons-footer">
+            <svg class="icons-socials-gray" width="44" height="44">
+              <use href="./images/icons.svg#icon-instagram-2"></use>
             </svg>
-            <svg class="icons-socials" width="44" height="44">
-              <use href="/images/icons.svg#icon-twitter-1"></use>
+            <svg class="icons-socials-gray" width="44" height="44">
+              <use href="./images/icons.svg#icon-twitter-1"></use>
             </svg>
-            <svg class="icons-socials" width="44" height="44">
-              <use href="/images/icons.svg#icon-facebook-1"></use>
+            <svg class="icons-socials-gray" width="44" height="44">
+              <use href="./images/icons.svg#icon-facebook-1"></use>
             </svg>
-            <svg class="icons-socials" width="44" height="44">
-              <use href="/images/icons.svg#icon-linkedin-1"></use>
+            <svg class="icons-socials-gray" width="44" height="44">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
             </svg>
           </div>
         </div>
