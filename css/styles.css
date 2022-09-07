@@ -48,7 +48,7 @@
       rgba(0, 18, 105, 0) 0%,
       rgba(47, 48, 58, 0.4) 100%
     ),
-    url("/Users/lap/Documents/GitHub/goit-markup-hw-04/images/team.jpg");
+    url("../images/team.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
