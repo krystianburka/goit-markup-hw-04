@@ -116,7 +116,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 100%;
   letter-spacing: 0.02em;
   padding-right: 0px;
   margin: 0;
@@ -145,7 +145,8 @@
 .contact {
   display: flex;
   justify-content: center;
-  /* background-color: #2196f3; */
+  /* background-color: #f39121; */
+  align-items: center;
 }
 
 .buttons-portfolio {
@@ -502,7 +503,6 @@
   margin-left: 10px;
   margin-right: 10px;
 
-  border-radius: 8px;
   fill: #afb1b8;
   /* background-color: #34f100; */
 }
