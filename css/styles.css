@@ -79,7 +79,7 @@
 }
 .link:hover {
   color: #2196f3;
-
+  cursor: pointer;
   background-color: #ffffff;
 }
 .link-logo {
@@ -107,11 +107,10 @@
 }
 .link-nav:hover {
   color: #2196f3;
-
+  cursor: pointer;
   background-color: #ffffff;
 }
 .link-contact {
-  color: #757575;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -119,13 +118,48 @@
   line-height: 100%;
   letter-spacing: 0.02em;
   padding-right: 0px;
-  margin: 0;
-  /* background-color: #2196f3; */
+  margin-right: 15px;
+  /* background-color: #58d23f; */
 }
+/* .link-contact::before,
+.link-contact::after {
+  content: "";
+  display: block;
+  height: 16px;
+  width: 10px;
+  background-size: contain;
+} */
+/* .link-contact::before {
+  margin-right: 5px; */
+/* background-image: url("/images/smartphone.png"); */
+/* background-image: url("/images/icons.svg#icon-smartphone"); */
+/* background-image: url("/images/Vector.svg");
+  fill: #f40909;
+  stroke-width: 3px;
+  stroke: #ffffff;
+} */
+/* .link-contact:hover::before {
+  fill: #2196f3;
+  /* background-color: #db0cd1; */
+/* } */
+
 .link-contact:hover {
   color: #2196f3;
-
+  cursor: pointer;
   background-color: #ffffff;
+}
+
+.icon-contact {
+  /* margin-left: 10px;
+  margin-right: 10px; */
+
+  fill: #757575;
+  /* background-color: #34f100; */
+}
+.icon-contact:hover,
+.link-contact:hover {
+  fill: #2196f3;
+  cursor: pointer;
 }
 .link-footer {
   color: #757575;
@@ -139,7 +173,7 @@
 }
 .link-footer:hover {
   color: #2196f3;
-
+  cursor: pointer;
   background-color: transparent;
 }
 .contact {
@@ -466,6 +500,7 @@
 .icon-socials-white:hover {
   fill: #ffffff;
   background-color: #2196f3;
+  cursor: pointer;
 }
 
 .icons-lorem {
@@ -499,16 +534,6 @@
   -moz-box-shadow: 1px 9px 23px 0px rgba(0, 0, 0, 0.63); */
 }
 
-.icon-contact {
-  margin-left: 10px;
-  margin-right: 10px;
-
-  fill: #afb1b8;
-  /* background-color: #34f100; */
-}
-.icon-contact:hover {
-  fill: #2196f3;
-}
 .socialmedia {
   display: flex;
   /* background-color: #428c2d; */
@@ -540,6 +565,7 @@
   /* stroke-width: 0; */
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  cursor: pointer;
 }
 .icons-socials-gray:hover {
   background-color: #2196f3;
@@ -585,4 +611,5 @@
 .icon-client:hover {
   fill: #2196f3;
   border-color: #2196f3;
+  cursor: pointer;
 }
